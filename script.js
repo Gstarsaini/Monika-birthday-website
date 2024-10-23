@@ -1,4 +1,4 @@
-let sound = new Audio('https://drive.google.com/uc?export=view&id=1UfR7fevj5a7jA9Q0FxFEI8KzWY5UFa3W'); // Magic sound link
+let sound = new Audio('ting.mp3'); // Local sound file
 
 document.getElementById('start-button').addEventListener('click', function() {
     sound.play(); // Play the magical sound
